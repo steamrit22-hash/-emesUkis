@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroLietuva – Ūkio šakos ir kalendorius</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">🌾 AgroLietuva</a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Pradžia</a></li>
+                    <li><a href="sakos.html" class="active">Ūkio šakos</a></li>
+                    <li><a href="skaiciuokle.html">Skaičiuoklė</a></li>
+                    <li><a href="kontaktai.html">Kontaktai</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Pagrindinės žemės ūkio šakos</h1>
+            <p>Lietuvos žemės ūkis pasižymi įvairove ir šiuolaikinių technologijų taikymu.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🌾</div>
+                    <h3>Augalininkystė</h3>
+                    <p>Kviečiai, rapsai, miežiai ir ankštinės kultūros sudaro Lietuvos eksporto pagrindą. Plačiai taikoma tikslioji žemdirbystė.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🐄</div>
+                    <h3>Gyvulininkystė</h3>
+                    <p>Pienininkystė ir mėsinė galvijininkystė remiasi natūraliomis ganyklomis, robotinėmis melžimo sistemomis ir gyvūnų gerove.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🍎</div>
+                    <h3>Sodininkystė ir daržininkystė</h3>
+                    <p>Šviežios lietuviškos daržovės, uogynai ir intensyvūs obelų sodai aprūpina vietos rinką kokybiška produkcija.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌱</div>
+                    <h3>Ekologinis ūkininkavimas</h3>
+                    <p>Ūkininkavimas be sintetinių trąšų ir pesticidų, saugantis dirvožemio mikroflorą bei švarų gruntinį vandenį.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Sezoninis darbų kalendorius</h2>
+            <p class="section-subtitle">Pasirinkite metų laiką ir peržiūrėkite svarbiausius ūkio darbus.</p>
+
+            <div class="tabs">
+                <button class="tab-btn active" data-season="pavasaris">🌱 Pavasaris</button>
+                <button class="tab-btn" data-season="vasara">☀️ Vasara</button>
+                <button class="tab-btn" data-season="ruduo">🍂 Ruduo</button>
+                <button class="tab-btn" data-season="ziema">❄️ Žiema</button>
+            </div>
+
+            <div class="tab-content" id="seasonContent"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div>
+                <h3>🌾 AgroLietuva</h3>
+                <p>Informacinis portalas apie tvarų ir modernų Lietuvos žemės ūkį.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Pradžia</a>
+                <a href="sakos.html">Ūkio šakos</a>
+                <a href="skaiciuokle.html">Skaičiuoklė</a>
+                <a href="kontaktai.html">Kontaktai</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 AgroLietuva. Visos teisės saugomos.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
